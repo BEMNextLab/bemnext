@@ -16,7 +16,7 @@ h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18pt;
 	font-weight: 500;
-  	color: #999999; 
+  	color: #999999;
 }
 
 p {
@@ -26,7 +26,16 @@ p {
   	color: #999999; 
 }
  
-.div {}
+.div {
+	
+}
+
+/* 
+.overlay {
+	position: absolute;
+	bottom: 0px;
+}
+ */
 
 #header {
 	height: 215px;
