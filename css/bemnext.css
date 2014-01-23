@@ -51,14 +51,24 @@ li {
   	color: #999999;
 }
 
-ul > li {
+ul {
+	list-style-type:none;
+}
+
+#header ul > li {
 	display: inline-block;
 	margin-right: 10px;
 }
- 
-.div {
-	
+
+#footer li {
+	font-size: 11px;
 }
+
+footer ul {
+   display:inline;
+   padding: 10px;
+}
+
 
 #header {
 	height: 215px;
@@ -84,6 +94,7 @@ ul > li {
 	position: absolute;
 	bottom: 20px;
 	left: 40px;
+	color: red;
 }
 
 .container {
@@ -115,10 +126,42 @@ ul > li {
 
 #footer {
 	height: 80px;
+	width: 1040px;
 	background-color: #F1F1F2;
 	clear: both;
 }
 
-ul {
-	list-style-type:none;
+
+.site-footer{
+   position: relative;
+   font-size: 12px;
+   font-family: inherit;
+   color: #686A6A;
+}
+
+.site-footer-links .left{
+   position: absolute;
+   float: left;
+   margin: 0px;
+   list-style: none;
+}
+
+.left {
+	float: left;
+	margin-left: 40px;
+}
+
+.site-footer-links .right {
+  position: absolute;
+  float: right;
+  margin-left: 15%;
+}
+
+.right {
+	float: right;
+}
+
+.site-footer .center {
+   position: absolute;
+   left:50%;
 }
