@@ -85,6 +85,7 @@ footer ul {
 
 #header {
 	height: 215px;
+	min-width: 650px;
 	background-color: #FFFFFF;
 	margin-bottom: 10px;
 	position: relative;
@@ -105,13 +106,14 @@ footer ul {
 
 #header ul {
 	position: absolute;
-	bottom: 20px;
-	left: 40px;
+	bottom: 160px;
+	left: 0px;
 	color: red;
 }
 
 .container {
 	max-width: 1020px;
+	min-width: 700px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
